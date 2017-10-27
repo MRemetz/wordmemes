@@ -1,0 +1,30 @@
+p.team-1-text {
+    color:red;
+    size: 5;
+}
+
+p.team-2-text {
+    color:blue;
+    size: 5;
+}
+
+p.team-1-score {
+    color:red;
+    font-size:100;
+}
+
+p.team-2-score {
+    color:blue;
+    font-size:100;
+}
+
+span.team-1 {
+    background-color:red;
+    color:white;
+}
+
+span.team-2 {
+    background-color:blue;
+    color:white;
+}
+
