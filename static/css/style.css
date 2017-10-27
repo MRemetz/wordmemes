@@ -1,24 +1,24 @@
 p.team-1-text {
     color:red;
-    font-size: 28;
+    font-size: 14;
     text-align:center;
 }
 
 p.team-2-text {
     color:blue;
-    font-size: 28;
+    font-size: 14;
     text-align:center;
 }
 
 p.team-1-score {
     color:red;
-    font-size:100;
+    font-size:50;
 
 }
 
 p.team-2-score {
     color:blue;
-    font-size:100;
+    font-size:50;
 }
 
 span.team-1 {
@@ -32,16 +32,15 @@ span.team-2 {
 }
 
 p.word-box {
-    margin-top: 2cm;
-    margin-bottom: 2cm;
-    font-size: 50;
+    margin-bottom: 1cm;
+    font-size: 25;
     text-align: center;
 }
 
 button.next-word-button {
-    font-size: 76;
-    padding-top: 100;
-    padding-bottom: 100;
+    font-size: 38;
+    padding-top: 50;
+    padding-bottom: 50;
     color: white;
     background: linear-gradient(90deg, red, blue);
 }
