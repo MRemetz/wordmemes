@@ -38,3 +38,8 @@ p.word-box {
     text-align: center;
 }
 
+button.next-word-button {
+    font-size: 76;
+    padding-top: 100;
+    padding-bottom: 100;
+}
