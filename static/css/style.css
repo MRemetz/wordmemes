@@ -1,0 +1,57 @@
+p.team-1-text {
+    color:red;
+    font-size: 28;
+    text-align:center;
+}
+
+p.team-2-text {
+    color:blue;
+    font-size: 28;
+    text-align:center;
+}
+
+p.team-1-score {
+    color:red;
+    font-size:50;
+
+}
+
+p.team-2-score {
+    color:blue;
+    font-size:50;
+}
+
+span.team-1 {
+    background-color:red;
+    padding: 20 20 20 20;
+    color:white;
+}
+
+span.team-2 {
+    background-color:blue;
+    padding: 20 20 20 20;
+    color:white;
+}
+
+p.word-box {
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    font-size: 25;
+    text-align: center;
+}
+
+button.next-word-button {
+    font-size: 38;
+    padding-top: 50;
+    padding-bottom: 50;
+    color: white;
+    background: linear-gradient(90deg, red, blue);
+}
+
+#grad {
+  background: gray; 
+  background: -webkit-linear-gradient(-90deg, red, blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, red, blue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, red, blue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, red, blue); /* Standard syntax */
+}
