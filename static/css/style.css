@@ -42,4 +42,14 @@ button.next-word-button {
     font-size: 76;
     padding-top: 100;
     padding-bottom: 100;
+    color: white;
+    background: linear-gradient(90deg, red, blue);
+}
+
+#grad {
+  background: gray; 
+  background: -webkit-linear-gradient(-90deg, red, blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, red, blue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, red, blue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, red, blue); /* Standard syntax */
 }
