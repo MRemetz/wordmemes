@@ -32,7 +32,8 @@ span.team-2 {
 }
 
 p.word-box {
-    margin-bottom: 1cm;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
     font-size: 25;
     text-align: center;
 }
