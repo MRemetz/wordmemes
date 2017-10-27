@@ -1,12 +1,12 @@
 p.team-1-text {
     color:red;
-    font-size: 14;
+    font-size: 28;
     text-align:center;
 }
 
 p.team-2-text {
     color:blue;
-    font-size: 14;
+    font-size: 28;
     text-align:center;
 }
 
@@ -23,11 +23,13 @@ p.team-2-score {
 
 span.team-1 {
     background-color:red;
+    padding: 20 20 20 20;
     color:white;
 }
 
 span.team-2 {
     background-color:blue;
+    padding: 20 20 20 20;
     color:white;
 }
 
