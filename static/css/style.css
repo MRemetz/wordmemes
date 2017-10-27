@@ -13,6 +13,7 @@ p.team-2-text {
 p.team-1-score {
     color:red;
     font-size:100;
+
 }
 
 p.team-2-score {
@@ -28,5 +29,11 @@ span.team-1 {
 span.team-2 {
     background-color:blue;
     color:white;
+}
+
+p.word-box {
+    margin-top: 2cm;
+    font-size: 50;
+    text-align: center;
 }
 
