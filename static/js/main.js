@@ -10,7 +10,8 @@ function updateWord(){
             document.getElementById("word-box").innerHTML = this.responseText;
         }
     };
-    xhttp.open("GET","http://"+hostIP+":5000/get_new_word",true);
+    url = "http://"+hostIP.replace(/ /g,'')+":5000/get_new_word";
+    xhttp.open("GET",url,true);
     xhttp.send();
 }
 
