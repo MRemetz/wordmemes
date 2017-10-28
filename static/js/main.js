@@ -13,3 +13,10 @@ function updateWord(){
     xhttp.open("GET","http://"+hostIP+":5000/get_new_word",true);
     xhttp.send();
 }
+
+function increment(obj){
+    if(obj.id == "team-1-plus")
+        document.getElementById("team-1-score").innerHTML = ++teamOneScore;
+    else if(obj.id == "team-2-plus")
+        document.getElementById("team-2-score").innerHTML = ++teamTwoScore;
+}
