@@ -42,8 +42,9 @@ button.team-2 {
 }
 
 p.word-box {
-    margin-top: 1.5cm;
-    margin-bottom: 1.5cm;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    height: 80;
     font-size: 25;
     text-align: center;
 }
