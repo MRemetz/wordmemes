@@ -1,9 +1,21 @@
 var teamOneScore = 0;
 var teamTwoScore = 0;
+var inRound = false;
 
 var hostIP = document.getElementById("ip-address").innerHTML;
 
+function startTimer(){
+    
+}
+
 function updateWord(){
+    if(inRound == false){
+        console.log("Starting a new round");
+        document.getElementById("next-word-button").innerHTML = "Next";
+        inRound = true;
+        startTimer();
+    }
+
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function(){
         if(this.readyState == 4 && this.status == 200){
