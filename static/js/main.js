@@ -44,7 +44,7 @@ function startNewRound(){
     var timer_sound = new Audio("../static/sounds/"+song+".wav");
     timer_sound.play();
     disableScoreButtons();
-    setTimeout(roundEnd, 1000);
+    setTimeout(roundEnd, 64000);
 }
 
 function increment(obj){
