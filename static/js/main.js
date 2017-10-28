@@ -4,16 +4,18 @@ var inRound = false;
 
 var hostIP = document.getElementById("ip-address").innerHTML;
 
-function startTimer(){
+function roundEnd(){
     
 }
 
 function updateWord(){
     if(inRound == false){
         console.log("Starting a new round");
-        document.getElementById("next-word-button").innerHTML = "Next";
+        document.getElementById("next-word-button").innerHTML = "Skip";
         inRound = true;
-        startTimer();
+        var timer_sound = new Audio("../static/sounds/countdown.wav");
+        timer_sound.play();
+        setTimeout(roundEnd, 64000);
     }
 
     var xhttp = new XMLHttpRequest();
