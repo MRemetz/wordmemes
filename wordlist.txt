@@ -60,7 +60,6 @@ A Used Car Lot
 A Volcano
 Abbot & Costello
 Abraham Lincoln
-Abraham Lincoln
 Actors
 Actresses
 Adam & Eve
@@ -160,6 +159,7 @@ Batman
 Batman & Robin
 Bats
 Bats & Balls
+Battlestar Galactica
 BB Guns
 Beach Balls
 Beach Parties
@@ -196,6 +196,7 @@ Bill & Ted
 Bill Clinton
 Bill Gates
 Bill Murray
+Bill Nye
 Billboards
 Billy Crystal
 Bingo
@@ -324,11 +325,13 @@ Chain Link Fences
 Chains
 Challenger Explosion
 Chameleons
+Chandler Bing
 Charging Rhinos
 Charles & Diana
 Charlie Brown
 Charlotte's Web
 Chat Rooms
+Cheerios
 Cheerleaders
 Cheese
 Cheese Sandwich
@@ -370,7 +373,9 @@ Climbing A Ladder
 Climbing A Tree
 Clint Eastwood
 Cloned Sheep
+Clone
 Clouds
+Clown Car
 Clowns
 Cocaine
 Cockles & Mussels
@@ -544,6 +549,7 @@ Ferdinand & Isabella
 Fertilizer
 Festering Wounds
 Fidel Castro
+Fidget Spinner
 Field & Stream
 Finger Painting
 Fire
@@ -638,7 +644,7 @@ Gilligan's Island
 Ginger & Mary Ann
 Gingko Trees
 Ginseng
-Giraffes
+Giraffe
 Girl Scouts
 Girlfriends
 Girls
@@ -668,7 +674,8 @@ Goldie Hawn
 Golf-Ball-Sized Hail
 Good & Plenty
 Goose & The Gander
-Gorillas
+Gorilla
+Gorillaz
 Gossip
 Gourmet Coffee Shops
 Grace Kelly
@@ -683,9 +690,11 @@ Gravity
 Gravy
 Grease
 Grease & Grime
+Greece
 Green Beans
 Greenpeace
 Grocery Stores
+Groot
 Guitars
 Gummi Bears
 Gym Teachers
@@ -741,7 +750,6 @@ Hit & Run
 Hitting A Home-Run
 HMOs
 Hockey
-Hockey
 Hollywood
 Hollywood & Vine
 Homeless Shelters
@@ -784,6 +792,7 @@ In The Doghouse
 Incense
 Inchworm
 India
+Indian
 Indiana Jones
 Industrial Revolution
 Infomercials
@@ -804,6 +813,7 @@ James Bond
 James Dean
 Japan
 Japanese
+Jazz
 Jell-O
 Jelly Beans
 Jenna & Barbara
@@ -812,6 +822,7 @@ Jerry Springer
 Jesse Jackson
 Jesse Ventura
 Jim Carrey
+Jimmy Neutron
 Jimmy Stewart
 Joan Of Arc
 Jodie Foster
@@ -848,6 +859,7 @@ Knock-Knock Jokes
 Labor Unions
 Lady & The Tramp
 Ladybugs
+Lamp
 Lance Armstrong
 Large Mouth Bass
 Las Vegas
@@ -964,6 +976,7 @@ Microsoft
 Midlife Crisis
 Midnight
 Migraine Headaches
+Migration
 Mike Tyson
 Miles Davis
 Milk
@@ -972,7 +985,10 @@ Milk Duds
 Milking A Cow
 Milwaukee
 Miniature Golf
+Minion
 Minneapolis & St. Paul
+Mint Chocolate Chip
+Mirage
 Mirrors
 Mittens
 Mold
@@ -1119,6 +1135,7 @@ Pearl Earrings
 Pebbles & Bamm-Bamm
 Pencil & Paper
 Pencils
+Penis
 Penguins
 Penn & Teller
 Pennies
@@ -1175,6 +1192,7 @@ Power & Glory
 Power Drills
 Power Rangers
 Power Tools
+Pregnant
 President Bush
 Pretzels
 Pride & Prejudice
@@ -1183,6 +1201,7 @@ Princess Di
 Pro Wrestling
 Psychiatrists
 Psychics
+Puberty
 Public Radio
 Puff Daddy
 Pulling Weeds
@@ -1192,6 +1211,7 @@ Puppets
 Puppies
 Pushups
 Pyramids
+Qdoba
 Queen Elizabeth II
 Quentin Terantino
 Quicksand
@@ -1253,10 +1273,12 @@ Rock Candy
 Rock Concert
 Rock Concerts
 Rock Stars
+Rocket League
 Rocket Scientists
 Rocking Chairs
 Rocks
 Rocky Mountains
+Rocky Road
 Rod & Reel
 Rogers & Hammerstein
 Roller Coaster
@@ -1310,6 +1332,7 @@ Scientists
 Scooby-Doo
 Screaming
 Screeching
+Seal
 Sean Connery
 Seashells
 Sesame Street
@@ -1355,9 +1378,11 @@ Smith & Wesson
 Smithsonian Institution
 Smoke
 Smoke & Mirrors
+Smores
 Snakes
 Sneezing
 Snips & Snails
+Snoop Dogg
 Snoopy
 Snoopy & The Red Barron
 Snow
@@ -1397,6 +1422,7 @@ Stalactites & Stalagmites
 Stamp Collecting
 Stanley & Livingston
 Star Fruit
+Star Wars
 Starry Night
 Stars & Stripes
 Starfish
@@ -1466,6 +1492,7 @@ Telling Scary Stories
 Telling The Truth
 Tents
 Terrorist Attack
+Testosterone
 Texas
 Thanksgiving Day
 The 1920s
@@ -1620,6 +1647,7 @@ Tulips
 Turkey & Stuffing
 Turkeys
 Turtles
+Twerk
 Tyra Banks
 Tyrannosaurus Rex
 Umbrella Drinks
@@ -1636,6 +1664,7 @@ Valentine's Day
 Vampires
 Vanilla Pudding
 Velcro
+Velocity
 Venus & Mars
 Viagra
 Victorian England
@@ -1650,7 +1679,9 @@ Waco, Texas
 Waffles
 Walking The Dog
 Wall Street
+WalMart
 Walt Disney
+Walrus
 War & Peace
 Warts
 Washer & Dryer
@@ -1659,7 +1690,7 @@ Watching Cartoons
 Watching Football
 Watching TV
 Water
-Water Baloons
+Water Balloons
 Water Guns
 Water Parks
 Water Skiing
@@ -1668,17 +1699,22 @@ Waterfalls
 Watermelon
 Watermelons
 Waterparks
+Waterspout
 Waxing The Floor
 Weapons Dealers
+Weapons
 Weddings
 Weed & Feed
+Weed
 Weird Al Yankovic
 Whales
 Wheat
 Wheel Of Fortune
+Wheel
 Whipped Cream
 Whips
 Whips & Chains
+Whisper Down the Lane
 White Bread
 White Collar Crime
 Whoopie Goldberg
