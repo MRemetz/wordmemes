@@ -37,22 +37,14 @@ function increment(obj){
         document.getElementById("team-1-score").innerHTML = ++teamOneScore;
         document.getElementById("team-1-minus").disabled = false;
         if(teamOneScore == 7){
-            disableScoreButtons();
-            teamOneScore = 0;
-            teamTwoScore = 0;
-            document.getElementById("team-1-score").innerHTML = 0;
-            document.getElementById("team-2-score").innerHTML = 0;
+            endGame();
         }
     }
     else if(obj.id == "team-2-plus"){
         document.getElementById("team-2-score").innerHTML = ++teamTwoScore;
         document.getElementById("team-2-minus").disabled = false;
         if(teamTwoScore == 7){
-            disableScoreButtons();
-            teamOneScore = 0;
-            teamTwoScore = 0;
-            document.getElementById("team-1-score").innerHTML = 0;
-            document.getElementById("team-2-score").innerHTML = 0;
+            endGame();
         }
     }
 }
@@ -84,4 +76,12 @@ function enableScoreButtons(){
         document.getElementById("team-1-minus").disabled = false;
     if(teamTwoScore > 0)
         document.getElementById("team-2-minus").disabled = false;
+}
+
+function endGame(){
+    disableScoreButtons();
+    teamOneScore = 0;
+    teamTwoScore = 0;
+    document.getElementById("team-1-score").innerHTML = 0;
+    document.getElementById("team-2-score").innerHTML = 0;
 }
