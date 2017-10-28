@@ -42,16 +42,16 @@ button.team-2 {
 }
 
 p.word-box {
-    margin-top: 0.5cm;
-    margin-bottom: 0.5cm;
+    margin-top: 1.5cm;
+    margin-bottom: 1.5cm;
     font-size: 25;
     text-align: center;
 }
 
 button.next-word-button {
     font-size: 38;
-    padding-top: 50;
-    padding-bottom: 50;
+    padding-top: 40;
+    padding-bottom: 40;
     color: white;
     background: linear-gradient(90deg, red, blue);
 }
