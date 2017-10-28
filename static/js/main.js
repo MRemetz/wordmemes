@@ -14,11 +14,10 @@ function updateWord(){
     if(inRound == false){
         startNewRound();
     }
-    document.getElementById("word-box").innerHTML = "";
-
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function(){
         if(this.readyState == 4 && this.status == 200){
+            document.getElementById("word-box").innerHTML = "";
             document.getElementById("word-box").innerHTML = this.responseText;
         }
     };
