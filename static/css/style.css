@@ -57,6 +57,10 @@ button.next-word-button {
     background: linear-gradient(90deg, red, blue);
 }
 
+.next-word-button:hover{
+    color: white;
+}
+
 #grad {
   background: gray; 
   background: -webkit-linear-gradient(-90deg, red, blue); /* For Safari 5.1 to 6.0 */
