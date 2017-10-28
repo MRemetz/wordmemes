@@ -83,4 +83,18 @@ button.next-word-button {
 body, html {
     height: 100%;
     font-family: 'Raleway', sans-serif;
+    background: transparent;
+}
+
+#all-content{
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+canvas{
+    display: block;
+    position: relative;
+    zindex: 1;
+    pointer-events: none;
 }

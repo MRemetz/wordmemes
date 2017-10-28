@@ -11,8 +11,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
-    <body onload="preLoad()">
-        <div class="container">
+    <body>
+        <div id="all-content" class="container">
             <div class="row">
                 <div class="col-md-1 col-xs-1"></div>
 
@@ -79,10 +79,11 @@
 
             <div class="row" align="center">
                 <div class="col-md-12 col-xs-12">
-                    <button type="button" id="next-word-button" class="next-word-button btn btn-lg btn-block" onclick="updateWord()">Start</button>
+                    <button type="button" id="next-word-button" class="next-word-button btn btn-lg btn-block" onclick="updateWord()">Load Audio</button>
                 </div>
             </div>
         </div>
+        <canvas id="canvas"></canvas>
         <footer>
             <div id="ip-address">
                 {{ ip_addr }}
