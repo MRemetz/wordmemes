@@ -57,6 +57,10 @@ button.next-word-button {
   background: linear-gradient(-90deg, red, blue); /* Standard syntax */
 }
 
+#ip-address{
+    display: hidden;
+}
+
 body, html {
     height: 100%;
 }

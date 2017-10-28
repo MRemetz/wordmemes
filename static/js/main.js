@@ -1,6 +1,8 @@
 var teamOneScore = 0;
 var teamTwoScore = 0;
 
+var hostIP = document.getElementByID("ip-address").innerHTML;
+
 function updateWord(){
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function(){
@@ -8,6 +10,6 @@ function updateWord(){
             document.getElementById("word-box").innerHTML = this.responseText;
         }
     };
-    xhttp.open("GET","http://127.0.0.1:5000/get_new_word",true);
+    xhttp.open("GET","http://"+hostIP+":5000/get_new_word",true);
     xhttp.send();
 }
