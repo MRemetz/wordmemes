@@ -30,7 +30,7 @@ function startNewRound(){
     console.log("Starting a new round");
     document.getElementById("next-word-button").innerHTML = "Skip";
     inRound = true;
-    var timer_sound = new Audio("../static/sounds/countdown.wav");
+    var timer_sound = new Audio("../static/sounds/flacbaby.wav");
     timer_sound.play();
     disableScoreButtons();
     setTimeout(roundEnd, 64000);
@@ -83,9 +83,19 @@ function enableScoreButtons(){
 }
 
 function endGame(){
+    var timer_sound = new Audio("../static/sounds/litty_city.wav");
+    timer_sound.play();
     disableScoreButtons();
     teamOneScore = 0;
     teamTwoScore = 0;
     document.getElementById("team-1-score").innerHTML = 0;
     document.getElementById("team-2-score").innerHTML = 0;
+}
+
+function preLoad(){
+    var x = null;
+    x = new Audio("../static/sounds/bazinga.wav");
+    x = new Audio("../static/sounds/oohbaby.wav");
+    x = new Audio("../static/sounds/suhdude.wav");
+    x = new Audio("../static/sounds/littycity.wav");
 }
