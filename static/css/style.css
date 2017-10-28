@@ -55,3 +55,7 @@ button.next-word-button {
   background: -moz-linear-gradient(-90deg, red, blue); /* For Firefox 3.6 to 15 */
   background: linear-gradient(-90deg, red, blue); /* Standard syntax */
 }
+
+#ip-address{
+    display: hidden;
+}
