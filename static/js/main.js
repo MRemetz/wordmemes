@@ -12,14 +12,9 @@ function roundEnd(){
 
 function updateWord(){
     if(inRound == false){
-        console.log("Starting a new round");
-        document.getElementById("next-word-button").innerHTML = "Skip";
-        inRound = true;
-        var timer_sound = new Audio("../static/sounds/countdown.wav");
-        timer_sound.play();
-        disableScoreButtons();
-        setTimeout(roundEnd, 64000);
+        startNewRound();
     }
+    document.getElementById("word-box").innerHTML = "";
 
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function(){
@@ -30,6 +25,16 @@ function updateWord(){
     url = "http://"+hostIP.replace(/ /g,'')+":5000/get_new_word";
     xhttp.open("GET",url,true);
     xhttp.send();
+}
+
+function startNewRound(){
+    console.log("Starting a new round");
+    document.getElementById("next-word-button").innerHTML = "Skip";
+    inRound = true;
+    var timer_sound = new Audio("../static/sounds/countdown.wav");
+    timer_sound.play();
+    disableScoreButtons();
+    setTimeout(roundEnd, 64000);
 }
 
 function increment(obj){
