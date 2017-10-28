@@ -1,7 +1,7 @@
 var teamOneScore = 0;
 var teamTwoScore = 0;
 
-var hostIP = document.getElementByID("ip-address").innerHTML;
+var hostIP = document.getElementById("ip-address").innerHTML;
 
 function updateWord(){
     var xhttp = new XMLHttpRequest();
