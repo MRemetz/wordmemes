@@ -18,7 +18,7 @@ p.team-1-score {
 
 p.team-2-score {
     color:blue;
-    font-size:50;
+    font-size: 50;
 }
 
 span.team-1 {
@@ -44,8 +44,9 @@ button.next-word-button {
     font-size: 38;
     padding-top: 50;
     padding-bottom: 50;
-    color: white;
-    background: linear-gradient(90deg, red, blue);
+    color: green;
+    background-color: transparent;
+   /* background: linear-gradient(90deg, red, blue);*/
 }
 
 #grad {
@@ -58,4 +59,18 @@ button.next-word-button {
 
 #ip-address{
     display: hidden;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url("../background.png");
+
+    height:100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
