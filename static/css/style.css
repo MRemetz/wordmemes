@@ -1,26 +1,31 @@
 p.team-1-text {
+    font-weight: bold;
     color:red;
     font-size: 28;
     text-align:center;
 }
 
 p.team-2-text {
+    font-weight: bold;
     color:blue;
     font-size: 28;
     text-align:center;
 }
 
 p.team-1-score {
+    font-weight: bold;
     color:red;
     font-size:50;
 }
 
 p.team-2-score {
+    font-weight: bold;
     color:blue;
     font-size: 50;
 }
 
 button.team-1 {
+    box-shadow: 5px 5px 5px #888888;
     cursor: default;
     background-color:red;
     padding: 20 20 20 20;
@@ -29,6 +34,7 @@ button.team-1 {
 }
 
 button.team-2 {
+    box-shadow: 5px 5px 5px #888888;
     cursor: default;
     background-color:blue;
     padding: 20 20 20 20;
@@ -39,6 +45,7 @@ button.team-2 {
 .btn.disabled, .btn[disabled] {
     cursor: not-allowed;
     opacity: .4;
+    box-shadow: 5px 5px 5px #000000;
 }
 
 p.word-box {
@@ -47,9 +54,11 @@ p.word-box {
     height: 80;
     font-size: 25;
     text-align: center;
+    font-weight: bold;
 }
 
 button.next-word-button {
+    box-shadow: 5px 5px 5px #888888;
     font-size: 38;
     padding-top: 40;
     padding-bottom: 40;
