@@ -30,7 +30,7 @@ function startNewRound(){
     console.log("Starting a new round");
     document.getElementById("next-word-button").innerHTML = "Skip";
     inRound = true;
-    var timer_sound = new Audio("../static/sounds/flacbaby.wav");
+    var timer_sound = new Audio("../static/sounds/bazinga.wav");
     timer_sound.play();
     disableScoreButtons();
     setTimeout(roundEnd, 64000);
