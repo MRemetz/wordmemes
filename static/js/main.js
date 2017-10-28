@@ -5,7 +5,7 @@ var clickedBefore = false;
 var finalScore = 7;
 
 var hostIP = document.getElementById("ip-address").innerHTML;
-var songs = ["bazinga","suhdude","oohbaby","enemyspotted","fuckherrightinthepussy","hagay","imgay"];
+var songs = ["bazinga","suhdude","oohbaby","enemyspotted","fuckherrightinthepussy","hagay","imgay", "plumbus", "johncena", "myswamp", "vapenaysh"];
 
 function roundEnd(){
     enableScoreButtons();
@@ -116,7 +116,7 @@ function endGame(winningTeam){
 
 function preLoad(){
     var x = null;
-    x = new Audio("../static/sounds/bazinga.wav");
+    //x = new Audio("../static/sounds/bazinga.wav");
     x.play();
     x.pause();
 }

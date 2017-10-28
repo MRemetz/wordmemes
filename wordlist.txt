@@ -477,6 +477,7 @@ Doing The Dishes
 Doing The Hokey-Pokey
 Dolly Parton
 Dolphins
+Donald Trump
 Donuts
 Doorbells
 Double Thick Malts
@@ -563,6 +564,7 @@ Flags
 Flannel Shirts
 Flash Floods
 Flashlights
+Flavortown
 Flies
 Flip-Flops
 Flipper
@@ -697,6 +699,7 @@ Grocery Stores
 Groot
 Guitars
 Gummi Bears
+Guy Fieri
 Gym Teachers
 Gymnastics
 Haiku
@@ -1346,6 +1349,7 @@ Shipwrecks
 Shoplifting
 Shopping
 Shopping Mall
+Shrek
 Shrimp
 Sigmund Freud
 Silk
@@ -1706,6 +1710,7 @@ Weapons
 Weddings
 Weed & Feed
 Weed
+Weedwhacker
 Weird Al Yankovic
 Whales
 Wheat
