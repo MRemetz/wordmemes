@@ -5,7 +5,9 @@ var inRound = false;
 var hostIP = document.getElementById("ip-address").innerHTML;
 
 function roundEnd(){
-    
+    enableScoreButtons();
+    document.getElementById("next-word-button").innerHTML = "Start";
+    inRound = false;
 }
 
 function updateWord(){
@@ -15,6 +17,7 @@ function updateWord(){
         inRound = true;
         var timer_sound = new Audio("../static/sounds/countdown.wav");
         timer_sound.play();
+        disableScoreButtons();
         setTimeout(roundEnd, 64000);
     }
 
@@ -69,14 +72,14 @@ function decrement(obj){
     }
 }
 
-function disableButtons(){
+function disableScoreButtons(){
     document.getElementById("team-1-minus").disabled = true;
     document.getElementById("team-2-minus").disabled = true;
     document.getElementById("team-1-plus").disabled = true;
     document.getElementById("team-2-plus").disabled = true;
 }
 
-function enableButtons(){
+function enableScoreButtons(){
     document.getElementById("team-1-plus").disabled = false;
     document.getElementById("team-2-plus").disabled = false;
     if(teamOneScore > 0)
