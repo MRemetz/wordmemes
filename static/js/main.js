@@ -83,7 +83,7 @@ function enableScoreButtons(){
 }
 
 function endGame(){
-    var timer_sound = new Audio("../static/sounds/litty_city.wav");
+    var timer_sound = new Audio("../static/sounds/littycity.wav");
     timer_sound.play();
     disableScoreButtons();
     teamOneScore = 0;
