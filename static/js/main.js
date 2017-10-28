@@ -32,8 +32,7 @@ function increment(obj){
         document.getElementById("team-1-score").innerHTML = ++teamOneScore;
         document.getElementById("team-1-minus").disabled = false;
         if(teamOneScore == 7){
-            document.getElementById("team-1-minus").disabled = true;
-            document.getElementById("team-2-minus").disabled = true;
+            disableScoreButtons();
             teamOneScore = 0;
             teamTwoScore = 0;
             document.getElementById("team-1-score").innerHTML = 0;
@@ -44,8 +43,7 @@ function increment(obj){
         document.getElementById("team-2-score").innerHTML = ++teamTwoScore;
         document.getElementById("team-2-minus").disabled = false;
         if(teamTwoScore == 7){
-            document.getElementById("team-1-minus").disabled = true;
-            document.getElementById("team-2-minus").disabled = true;
+            disableScoreButtons();
             teamOneScore = 0;
             teamTwoScore = 0;
             document.getElementById("team-1-score").innerHTML = 0;
@@ -67,14 +65,14 @@ function decrement(obj){
     }
 }
 
-function disableButtons(){
+function disableScoreButtons(){
     document.getElementById("team-1-minus").disabled = true;
     document.getElementById("team-2-minus").disabled = true;
     document.getElementById("team-1-plus").disabled = true;
     document.getElementById("team-2-plus").disabled = true;
 }
 
-function enableButtons(){
+function enableScoreButtons(){
     document.getElementById("team-1-plus").disabled = false;
     document.getElementById("team-2-plus").disabled = false;
     if(teamOneScore > 0)
