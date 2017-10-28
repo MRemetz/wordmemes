@@ -16,15 +16,25 @@ function updateWord(){
 }
 
 function increment(obj){
-    if(obj.id == "team-1-plus")
+    if(obj.id == "team-1-plus"){
         document.getElementById("team-1-score").innerHTML = ++teamOneScore;
-    else if(obj.id == "team-2-plus")
+        document.getElementById("team-1-minus").disabled = false;
+    }
+    else if(obj.id == "team-2-plus"){
         document.getElementById("team-2-score").innerHTML = ++teamTwoScore;
+        document.getElementById("team-2-minus").disabled = false;
+    }
 }
 
 function decrement(obj){
-    if(obj.id == "team-1-minus")
+    if(obj.id == "team-1-minus"){
         document.getElementById("team-1-score").innerHTML = --teamOneScore;
-    else if(obj.id == "team-2-minus")
+        if(teamOneScore == 0)
+            document.getElementById("team-1-minus").disabled = true;
+    }
+    else if(obj.id == "team-2-minus"){
         document.getElementById("team-2-score").innerHTML = --teamTwoScore;
+        if(teamTwoScore == 0)
+            document.getElementById("team-2-minus").disabled = true;
+    }
 }

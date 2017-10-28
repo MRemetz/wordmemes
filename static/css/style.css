@@ -20,16 +20,25 @@ p.team-2-score {
     font-size: 50;
 }
 
-span.team-1 {
+button.team-1 {
+    cursor: default;
     background-color:red;
     padding: 20 20 20 20;
     color:white;
+    opacity: 1;
 }
 
-span.team-2 {
+button.team-2 {
+    cursor: default;
     background-color:blue;
     padding: 20 20 20 20;
     color:white;
+    opacity: 1;
+}
+
+.btn.disabled, .btn[disabled] {
+    cursor: not-allowed;
+    opacity: .4;
 }
 
 p.word-box {
