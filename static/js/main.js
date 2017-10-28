@@ -115,8 +115,8 @@ function endGame(winningTeam){
 }
 
 function preLoad(){
-    var x = null;
+    //var x = null;
     //x = new Audio("../static/sounds/bazinga.wav");
-    x.play();
-    x.pause();
+    //x.play();
+    //x.pause();
 }
