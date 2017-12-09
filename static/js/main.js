@@ -112,10 +112,6 @@ function endGame(winningTeam){
     teamTwoScore = 0;
     document.getElementById("team-1-score").innerHTML = 0;
     document.getElementById("team-2-score").innerHTML = 0;
-    var xhttp = new XMLHttpRequest();
-    var url = "http://"+hostIP.replace(/ /g,'')+":5000/clearlist";
-    xhttp.open("GET",url,true);
-    xhttp.send();
 }
 
 function preLoad(){
