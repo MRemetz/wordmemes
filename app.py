@@ -1,8 +1,16 @@
 from flask import Flask, render_template
 import random, socket
 
+
+def getIp():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.connect(("8.8.8.8", 80))
+    ip = s.getsockname()[0]
+    s.close() 
+    return ip
+
 app = Flask(__name__)
-ip = socket.gethostbyname(socket.gethostname())
+print(f"Starting server on: {getIp()}")
 word_count = 0;
 
 with open("wordlist.txt","r") as f:
@@ -11,7 +19,7 @@ with open("wordlist.txt","r") as f:
 
 @app.route("/")
 def index():
-    return render_template("./index.html",ip_addr=ip)
+    return render_template("./index.html",ip_addr=getIp())
 
 @app.route("/get_new_word")
 def get_new_word():
