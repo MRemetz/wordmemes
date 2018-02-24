@@ -12,6 +12,7 @@ def getIp():
 app = Flask(__name__)
 print(f"Starting server on: {getIp()}")
 word_count = 0;
+used_words =  []
 
 with open("wordlist.txt","r") as f:
     for x in f:
@@ -26,5 +27,13 @@ def get_new_word():
     with open("wordlist.txt", "r") as words:
         num = random.randint(0, word_count)
         for i, line in enumerate(words):
+            if line in used_words:
+                num += 1
             if i == num:
+                used_words.append(i)
                 return str(line).rstrip();
+
+@app.route("/clearlist")
+def clearlist():
+    used_words = []
+    return ""
