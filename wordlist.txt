@@ -893,7 +893,7 @@ Lewis & Clark
 Liberty & Justice
 Life Jackets
 Lifeguard
-Lightning
+Lighting
 Lightning
 Linguine With Clam Sauce
 Lions
@@ -935,7 +935,6 @@ Madonna
 Mae West
 Magic Tricks
 Maggots
-Magic Tricks
 Mahatma Gandhi
 Mail Carrier
 Manhattan
@@ -1007,7 +1006,6 @@ Moon & The Stars
 Morticians
 Mosquito Bites
 Mosquitoes
-Motorcycles
 Motorcycles
 Mount Rushmore
 Mount Vesuvius
@@ -1153,11 +1151,12 @@ Picnics
 Pierced Ears
 Pigeons
 Pigs
+Pikachu
 Pillow Fights
 Pillows
 Pilots
 Pimples
-Pi�atas
+Pinatas
 Pine Cones
 Pine Trees
 Pineapple
@@ -1769,3 +1768,87 @@ Mister Big Boi
 Vape Naysh
 It's Everyday Bro
 Bazinga
+Tuba
+Singer
+Race
+Students
+Day
+Jump
+Hurt
+Laundry
+Blue
+Sad
+Old
+Athlete
+Knee
+Trash can
+Stream
+Quiet
+Mop
+Swing
+Square
+Monday
+School bus
+Poem
+Scared
+Draw
+Typing
+Short
+Stairs
+Asleep
+Lunch
+Fog
+New
+Straw
+Push
+Dirty
+Ankle
+Cake
+Shoelace
+Wheelchair
+Goodbye
+Eyebrow
+Pear
+Talk
+Glasses
+Shirt
+Spoon
+Box
+Wind
+Green
+Wolf
+Couch
+Fix
+Broken
+Plate
+Bridge
+Mailbox
+Flower
+White
+Triangle
+Long
+Fire engine
+Star
+Cooking
+Tired
+Slow
+Brave
+Nephew
+Niece
+Elevator
+Light bulb
+Broccoli
+Cough
+Heart
+Calculator
+Stick
+Cat
+Dark chocolate
+Bird's nest
+Fast
+Hungry
+Red
+Frown
+Chew
+Pepper
+Sick
