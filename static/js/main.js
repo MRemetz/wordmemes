@@ -1,39 +1,56 @@
 var teamOneScore = 0;
 var teamTwoScore = 0;
-var inRound = false;
-var clickedBefore = false;
 var finalScore = 7;
+var inRound = false;
+var sounds = [];
 
 var hostIP = document.getElementById("ip-address").innerHTML;
-var songs = ["bazinga","suhdude","oohbaby","enemyspotted","fuckherrightinthepussy","hagay","imgay", "plumbus", "johncena", "myswamp", "vapenaysh", "geometry","itsonlyagame","crash","tendies","mansnothot","nani","roundabout"];
+
+// Connect to the WS
+const ws = new WebSocket("ws://"+hostIP.trim()+":5001");
+
+// Define a handler for 'Open' event
+ws.addEventListener("open", (e) => {
+    console.log("Established WebSocket connection");
+})
+
+// Define a handler for 'Message' event
+ws.addEventListener("message", (e) => {
+    console.log("Recvd:", e);
+    // Parse the response
+    resp = JSON.parse(e.data);
+    // Handle it
+    if(resp.type == "NEW_WORD"){
+        document.getElementById("word-box").innerHTML = resp.word;     
+    }else if(resp.type == "AUDIO"){
+        let audio_wav = "data:audio/wav;base64," + resp.sound.value;
+        $("#audio-content").append("<audio id='"+resp.sound.name+"-audio'><source src='"+audio_wav+"' type='audio/wav'/></audio>")
+        // Check for endgame sounds
+        if(resp.sound.name != "timer" && resp.sound.name != "littycity"){
+            sounds.push(resp.sound.name);
+        }
+        // Check for timer audio
+        if(resp.sound.name == "timer"){
+            document.getElementById("next-word-button").innerHTML = "Start";
+            document.getElementById("next-word-button").disabled = false;
+        }
+    }
+});
 
 function roundEnd(){
+    let randSong = sounds[Math.floor(Math.random()*sounds.length)];
+    document.getElementById(randSong+"-audio").play();
     enableScoreButtons();
     document.getElementById("next-word-button").innerHTML = "Start";
+    document.getElementById("next-word-button").disabled = true;
     inRound = false;
 }
 
 function updateWord(){
-    if(clickedBefore == false){
-        console.log("Preloading audio files");
-        document.getElementById("next-word-button").innerHTML = "Start";
-        preLoad();
-        clickedBefore = true;
-        return;
-    }else if(inRound == false){
+    if(!inRound){
         startNewRound();
     }
-
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function(){
-        if(this.readyState == 4 && this.status == 200){
-            document.getElementById("word-box").innerHTML = "";
-            document.getElementById("word-box").innerHTML = this.responseText;
-        }
-    };
-    url = "http://"+hostIP.replace(/ /g,'')+":5000/get_new_word";
-    xhttp.open("GET",url,true);
-    xhttp.send();
+    ws.send("NEW_WORD");
 }
 
 function startNewRound(){
@@ -41,14 +58,15 @@ function startNewRound(){
     document.getElementById("next-word-button").innerHTML = "Skip";
     document.body.style.backgroundColor = "white";
     inRound = true;
-    song = songs[Math.floor(Math.random()*songs.length)];
-    var timer_sound = new Audio("../static/sounds/"+song+".wav");
-    timer_sound.play();
+    console.log("Playing timer from:", document.getElementById("timer-audio"));
+    document.getElementById("timer-audio").play();
     disableScoreButtons();
-    setTimeout(roundEnd, 64000);
+    setTimeout(roundEnd, 59450);
 }
 
 function increment(obj){
+    // Renenable the button
+    document.getElementById("next-word-button").disabled = false;
     if(obj.id == "team-1-plus"){
         document.getElementById("team-1-score").innerHTML = ++teamOneScore;
         document.getElementById("team-1-minus").disabled = false;
@@ -103,8 +121,7 @@ function endGame(winningTeam){
         document.body.style.backgroundColor = "#b3b3ff";
     }
 
-    var timer_sound = new Audio("../static/sounds/littycity.wav");
-    timer_sound.play();
+    document.getElementById("littycity-audio").play();
     StartConfetti();
     setTimeout(DeactivateConfetti, 15000);
     disableScoreButtons();
@@ -112,15 +129,4 @@ function endGame(winningTeam){
     teamTwoScore = 0;
     document.getElementById("team-1-score").innerHTML = 0;
     document.getElementById("team-2-score").innerHTML = 0;
-    var xhttp = new XMLHttpRequest();
-    var url = "http://"+ hostIP.replace(/ /g, '')+":5000/clearlist";
-    xhttp.open("GET", url, true);
-    xhttp.send();
-}
-
-function preLoad(){
-    //var x = null;
-    //x = new Audio("../static/sounds/bazinga.wav");
-    //x.play();
-    //x.pause();
 }
