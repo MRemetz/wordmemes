@@ -79,7 +79,7 @@
 
             <div class="row" align="center">
                 <div class="col-md-12 col-xs-12">
-                    <button type="button" id="next-word-button" class="next-word-button btn btn-lg btn-block" onclick="updateWord()">Load Audio</button>
+                    <button type="button" id="next-word-button" disabled="true" class="next-word-button btn btn-lg btn-block" onclick="updateWord()">Loading Audio...</button>
                 </div>
             </div>
         </div>
@@ -87,6 +87,8 @@
         <footer>
             <div id="ip-address">
                 {{ ip_addr }}
+            </div>
+            <div id="audio-content">
             </div>
         </footer>
         <script src="../static/js/confetti.js" type="text/javascript"></script>
